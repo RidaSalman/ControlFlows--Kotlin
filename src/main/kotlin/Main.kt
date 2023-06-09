@@ -318,4 +318,117 @@ fun main(){
         }
     }
 }*/
-//------------------------------------------------------
+//------------------------------------------While Loop------------
+/*fun main(args: Array<String>) {
+    var i = 5;
+    while (i > 0) {
+        println(i)
+        i--
+    }
+}*/
+//--------------------------------------Do while loop-------------
+/*fun main(args: Array<String>) {
+    var i = 5;
+    do{
+        println(i)
+        i--
+    }while(i > 0)
+}*/
+//----------------------------------------------------------------
+/*
+fun main(){
+    var i = 1
+    while( i <= 10){
+        println(i)
+        i++
+    }
+}*/
+//--------------------------------------------------------------
+/*
+fun main() {
+    val name = arrayOf("Alice", "Bob", "Charlie", "David")
+    var index = 0
+
+    while (index < name.size) {
+        println(name[index])
+        index++
+    }
+}*/
+//--------------------------------------------------------
+/*
+fun main(){
+    val name = "Rida"
+    var index = name.length -1
+
+
+    while(index>=0 ){
+        println(name[index])
+        index--
+    }
+}*/
+//------------------------------------------------------------------
+/*
+fun main(){
+    var sum = 0
+    var number = 1
+
+    while (number <= 100) {
+        sum += number
+        number++
+    }
+
+    println("The sum of numbers from 1 to 100 is: $sum")
+}*/
+//----------------------------------------------------------------
+/*fun main(){
+var number =  2
+while (number <= 20) {
+    println(number)
+    number += 2
+}
+}*/
+//-------------------------------------Break and Continue-----------------------------
+/*
+fun main(args: Array<String>) {
+    var i = 0;
+    while (i++ < 100) {
+        println(i)
+        if( i == 50 ){
+            break
+        }
+
+    }
+}*/
+//-------------------------------
+/*fun main(args: Array<String>) {
+    outerLoop@ for (i in 1..3) {
+        innerLoop@ for (j in 1..3) {
+            println("i = $i and j = $j")
+            if (i == 2){
+                break@outerLoop
+            }
+        }
+    }
+}*/
+//---------------------------------------------------------
+/*fun main(args: Array<String>) {
+    var i = 0;
+    while (i++ < 10) {
+        if( i == 3 ){
+            continue
+        }
+        println(i)
+    }
+}*/
+//------------------------------------------------------------
+/*fun main(args: Array<String>) {
+    outerLoop@ for (i in 1..3) {
+        innerLoop@ for (j in 1..3) {
+            if (i == 2){
+                continue@outerLoop
+            }
+            println("i = $i and j = $j")
+        }
+    }
+}*/
+//----------------------------------------------
